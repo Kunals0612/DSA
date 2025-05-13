@@ -13,6 +13,7 @@ public:
             // Swap the found minimum element with the first element of the unsorted part
             swap(nums[i], nums[min_idx]);
         }
+        return nums;
     }
 };
 
